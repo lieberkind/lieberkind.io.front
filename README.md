@@ -8,3 +8,7 @@ Install dependencies and build project by running:
 npm install
 gulp
 ```
+
+## Todo
+- Install and run css autoprefixer in build step
+- Add sourcemaps
