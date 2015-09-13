@@ -24,7 +24,7 @@ gulp.task('js', function() {
     console.log('Doing something to JS files here...');
 })
 
-gulp.task('default', ['js', 'html']);
+gulp.task('default', ['js', 'index', 'sass']);
 
 gulp.task('watch', function() {
     gulp.watch('src/**/*.js', ['js']);
